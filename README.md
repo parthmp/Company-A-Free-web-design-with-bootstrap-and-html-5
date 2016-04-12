@@ -19,7 +19,7 @@ Technologies / Plugins used<br />
 How to use<br />
 Simply Download and open the html files in browser to see it in action.
 
-<h1><a href="http://www.test.ninjazin.com/d1">Live Demo</a></h1>
+<h1><a href="http://test.ninjazin.com/d1">Live Demo</a></h1>
 
 
 
