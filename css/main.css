@@ -1,0 +1,466 @@
+/**
+/*	Company - A Free HTML Modern Design From Ninjazin
+/*	Author : Parth Parmar
+/*	Date : 12 April 2016
+/*	Website : http://www.ninjazin.com
+/*	Created as a fun side project.
+/*	
+**/
+p, div, h1, h2, h3, h4, h5, h6, span{
+	font-family: 'Abel', sans-serif;
+}
+p{
+	font-size:18px;
+}
+.menu_container{
+	background:RGBA(205,6,6, 0.8);
+}
+.menu_list{
+	list-style:none;
+}
+.menu_list li{
+	float:left;
+}
+.menu_launcher{
+	display:none;
+}
+
+.sub_menu img{
+	height:195px;
+	width:100%;
+}
+
+.sub_menu{
+	padding:10px;
+	padding-left:0px;
+	display:none;
+}
+
+.sub_menu_list{
+	list-style:none;
+}
+
+.sub_menu_list li a{
+	color:#fff;
+	font-size:16px;
+	text-decoration:none !important;
+	border-bottom:1px dashed #fff;
+}
+
+.sub_menu_list li a:hover{
+	border-bottom:none;
+}
+
+.sub_menu_list li .fa{
+	font-size:16px;
+}
+
+.menu_list{
+	margin-top:38px;
+	list-style-type:none;
+	float:right;
+}
+
+.menu_list li{
+	margin-left:25px;
+}
+.redtext{
+	color:#cc0808;
+}
+.menu_list li a{
+	font-size:18px;
+	text-decoration:none !important;
+	color:#fff;
+	transition:font-size 0.3s;
+}
+
+.menu_list li a:hover{
+	font-size:22px;
+}
+
+.close_sub{
+	float:right;
+	font-size:30px;
+	color:#fff !important;
+	text-decoration:none;
+}
+
+.sub_menu{
+	position:absolute;
+	width:100%;
+	background:RGBA(205,6,6, 0.7);
+	z-index:9999;
+}
+
+.jssorb05 {
+	position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background: url('../images/b05.png') no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+.jssora22l, .jssora22r {
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 58px;
+	cursor: pointer;
+	background: url('../images/a22.png') center center no-repeat;
+	overflow: hidden;
+}
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+.header1_default{
+	text-align:center;
+	color:#cc0808;
+}
+
+.service_box .fa{
+	text-align:center;
+	font-size:150px;
+}
+
+.service_box{
+	padding:20px;
+	text-align:center;
+	font-size:18px;
+	transition: background 0.5s, color 0.5s, padding 0.5s, font-size 0.5s;
+}
+.boxes a{
+	text-decoration:none;
+	color:#3c3c3c;
+}
+.service_box:hover{
+	padding:10px;
+	font-size:20px;
+	background:#cc0808;
+	color:#fff;
+}
+
+.btn-bigc{
+	border:5px solid #cc0808;
+	border-radius:0px;
+	color:#fff;
+	background:#cc0808;
+	font-size:30px;
+	transition: background 0.5s, color 0.5s;
+}
+
+.btn-bigc:hover{
+	background:#fff;
+	color:#cc0808;
+}
+
+
+.btn-norc{
+	border:2px solid #cc0808;
+	border-radius:0px;
+	color:#fff;
+	background:#cc0808;
+	font-size:16px;
+	transition: background 0.5s, color 0.5s;
+}
+
+.btn-norc:hover{
+	background:#fff;
+	color:#cc0808;
+}
+
+.form-control{
+	border-radius:0px;
+	box-shadow:0px 0px 5px #cb9292;
+}
+
+.contact_side h3{
+	border-bottom:1px dashed #cc0808;
+}
+
+.contact_side a{
+	text-decoration:none;
+	font-size:18px;
+	color:#3c3c3c;
+}
+.contact_side a:hover{
+	text-decoration:underline;
+}
+label{
+	color:#cc0808;
+}
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+}
+.skred .skillbar-title, .skred .skillbar-bar{
+	background:#cc0808 !important;
+}
+
+.skgrey .skillbar-title, .skgrey .skillbar-bar{
+	background:#3c3c3c !important;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+.social_team i{
+	font-size:22px;
+	text-decoration:none;
+	color:#3c3c3c;
+}
+.team_box{
+	transition: border 0.3s, padding 0.3s, box-shadow 0.30s;
+}
+.team_box:hover{
+	border:10px solid #cc0808;
+	padding:15px;
+	box-shadow:0px 0px 25px #cc0808;
+}
+
+.grey{
+	background:#3c3c3c;
+	color:#fff;
+}
+.grey_cbox{
+	padding:25px 10px 25px 10px;
+	text-align:center;
+}
+blockquote{
+	margin-left:55px;
+}
+.clients, .social{
+	list-style-type:none;
+}
+.social{
+	padding:20px 0px 10px 0px;
+	float:right;
+}
+.clients li{
+	float:left;
+	margin-left:25px;
+}
+.social li{
+	float:left;
+	margin-left:15px;
+}
+.social li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:30px;
+}
+.center{
+	margin:0px auto;
+}
+.redbg{
+	background:#cc0808;
+}
+.footer p, .footer a{
+	color:#fff;
+	padding:30px 0px 10px 0px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    text-align: center;
+    line-height: 30px;
+    background: #cc0808;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+	font-size:26px;
+	padding:8px 15px 8px 15px;
+	border:2px solid #fff;
+    transition: opacity 0.2s ease-out, background 0.2s, border 0.2s;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #fff;
+    color: #cc0808;
+	border:2px solid #cc0808;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color:#fff;
+    background:#cc0808;
+}
+
+::selection {
+    color:#fff;
+    background:#cc0808;
+}
+@media only screen and (max-width: 991px){
+	.footer p{
+		text-align:center;
+	}
+	.social{
+		float:none;
+		clear:both;
+		margin:50px;
+		margin-top:-10px;
+		margin-left:37%;
+	}
+	.clients li{
+		float:none;
+		clear:both;
+		margin:0px;
+		padding:0px;
+	}
+	.menu_list{
+		display:none;
+	}
+	
+	.menu_list li, .menu_list{
+		float:none;
+		clear:both;
+	}
+	
+	.close_sub{
+		background:transparent !important;
+	}
+	
+	.menu_launcher{
+		display:block;
+		position:absolute;
+		right:0;
+		z-index:9999;
+		padding:7px 20px 7px 20px;
+		font-size:40px;
+		border:1px solid #fff;
+		color:#fff;
+		margin:20px;
+		transition:background 0.2s, color 0.2s;
+	}
+	
+	.menu_launcher:hover, .menu_launcher:active{
+		background:#fff;
+		color:RGBA(205,6,6, 0.8);
+	}
+	
+	.menu_list{
+		margin-top:10px;
+	}
+	
+	.menu_list li a{
+		font-family:'Abel', sans-serif;
+		font-size:26px;
+		padding:10px 0px 10px 0px;
+		color:#fff;
+		text-decoration:none;
+		border-top:1px solid #fff;
+		display:block;
+		transition: padding-left 0.2s, background 0.2s, color 0.2s;
+	}
+	
+	.menu_list li a:hover{
+		padding-left:25px;
+		background:#fff;
+		color:RGBA(205,6,6, 0.8);
+	}
+	
+	.sub_menu img{
+		height:100%;
+	}
+	
+	.sub_menu .sub_menu_list{
+		margin-top:25px;
+	}
+	.sub_menu a{
+		font-size:26px;
+		padding:10px 0px 10px 0px;
+		display:block;
+		transition: padding-left 0.5s, background 0.5s, color 0.5s;
+	}
+	
+	.sub_menu a:hover{
+		padding-left:25px;
+		background:#fff;
+		color:RGBA(205,6,6, 0.8);
+	}
+	
+	.logo{
+		padding:0px;
+		margin:5px auto;
+	}
+	
+}
