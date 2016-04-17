@@ -3,7 +3,6 @@
 /*	Author : Parth Parmar
 /*	Date : 12 April 2016
 /*	Website : http://www.ninjazin.com
-/*	GitHub : https://github.com/wrathhawk/Company-A-Free-web-design-with-bootstrap-and-html-5
 /*	Created as a fun side project.
 /*	
 **/
@@ -371,6 +370,15 @@ blockquote{
     background:#cc0808;
 }
 @media only screen and (max-width: 991px){
+	
+	p,div,span,a, li{
+		font-size:32px !important;
+	}
+	
+	h3{
+		font-size:36px;
+	}
+	
 	.footer p{
 		text-align:center;
 	}
