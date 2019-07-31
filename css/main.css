@@ -359,7 +359,9 @@ blockquote{
 #back-to-top.show {
     opacity: 1;
 }
-
+.map-image{
+	width:100%;
+}
 ::-moz-selection { /* Code for Firefox */
     color:#fff;
     background:#cc0808;
